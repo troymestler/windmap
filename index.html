@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="Map">
+<head>
+    <title></title>
+    <script type="text/javascript" src="lib/jquery/jquery.js"></script>
+    <script type="text/javascript" src="lib/angular/angular.js"></script>
+    <script type="text/javascript" src="lib/Q.js"></script>
+    <script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
+    <script type="text/javascript" src="lib/leaflet/angular-leaflet-directive.js"></script>
+    <script type="text/javascript" src="js/Map.js"></script>
+    <script type="text/javascript" src="js/services/WeatherService.js"></script>
+    <link rel="stylesheet" href="css/leaflet.css">
+</head>
+<body ng-controller="MapCtlr">
+    <leaflet defaults="defaults" center="center" width="640px" height="400px"></leaflet>
+</body>
+</html>
